@@ -13,8 +13,8 @@ Esta web trata sobre las lecturas desarrollados en Enter
 - 102
   - [lectura1](https://github.com/linder3hs/reading-notes/tree/main/102/lectura01.md)
   - [lectura2](./102/lectura02.md)
-  - lectura3
-  - lectura8
+  - [lectura3](./102/lectura03.md)
+  - [lectura8](./102/lectura08.md)
 - 201
   - lectura1
   - lectura15

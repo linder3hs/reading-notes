@@ -1,12 +1,20 @@
-# Grow Mindset
+# Reading Notes
 
-[Text de enlace](https://google.com)
+## Introducción
 
-<img width="683" alt="Screenshot 2024-09-12 at 09 56 29" src="hthttps://github.com/linder3hs/reading-notestps://github.com/user-attachments/assets/efd22237-59e9-4a02-af4b-5baa27bcc63a">
+Hola mi nombre es Linder...
 
-| Alumnos   | Cursos |
-| --------- | ------ |
-| Angel     | JS     |
-| Gianmarco | HTML   |
+## Sobre la web
 
-## Estamos usando vscode
+Esta web trata sobre las lecturas desarrollados en Enter
+
+## Tabla de contenidos
+
+- 102
+  - [lectura1]("https://github.com/linder3hs/reading-notes/tree/main/102/lectura01.md")
+  - [lectura2]("./102/lectura02.md")
+  - lectura3
+  - lectura8
+- 201
+  - lectura1
+  - lectura15

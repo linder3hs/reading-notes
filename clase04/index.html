@@ -12,6 +12,10 @@
       justify-content: space-between;
       /* manipulación vertical */
       align-items: center;
+      /* Estos estilos solo se usarian si queremos que el menu se mantega visible */
+      position: fixed;
+      width: 100%;
+      background-color: white;
     }
 
     ul {
@@ -35,6 +39,21 @@
     .list-item {
       font-weight: bold;
     }
+
+    main {
+      display: flex;
+      margin-top: 40px;
+      align-items: center;
+      justify-content: center;
+      font-family: Verdana, sans-serif;
+    }
+
+    /* footer {
+      border: solid;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    } */
   </style>
   <body>
     <!-- la cabecera de nuestra web -->
@@ -54,5 +73,23 @@
         </div>
       </nav>
     </header>
+    <!-- main: Permite indicar cual es la sección principal de la web -->
+    <main>
+      <div>
+        <!-- la unidad de medida que usa img por defecto son pixelex (px) -->
+        <img
+          width="300"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <h1>Bienvenido a HTML5</h1>
+        <p>Este lenguaje nos permite crear la estructura de nuestra web</p>
+      </div>
+    </main>
+    <footer>
+      <p>Footer</p>
+    </footer>
   </body>
 </html>

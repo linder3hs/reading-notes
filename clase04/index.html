@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <script src="./app.js"></script>
   </head>
   <style>
     nav {
@@ -84,7 +85,17 @@
         />
       </div>
       <div>
-        <h1>Bienvenido a HTML5</h1>
+        <h1>
+          Bienvenido
+          <script>
+            if (preguntaNombre === "") {
+              document.write("El usuario no escribio");
+            } else {
+              document.write(preguntaNombre);
+            }
+          </script>
+          , a HTML5
+        </h1>
         <p>Este lenguaje nos permite crear la estructura de nuestra web</p>
       </div>
     </main>

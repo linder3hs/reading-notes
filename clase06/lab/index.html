@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    nav {
+      display: flex;
+      /* manipulación horizontal */
+      justify-content: space-between;
+      /* manipulación vertical */
+      align-items: center;
+      /* Estos estilos solo se usarian si queremos que el menu se mantega visible */
+      position: fixed;
+      width: 100%;
+      background-color: white;
+    }
+
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 20px;
+    }
+
+    a {
+      text-decoration: none;
+      /* permite cambiar el color del texto */
+      color: #000;
+    }
+
+    /* # se usa solo para buscar por id */
+    #boton-inicio {
+      color: rgb(61, 135, 255);
+    }
+
+    /* . se usa solo para buscar por class */
+    .list-item {
+      font-weight: bold;
+    }
+
+    main {
+      display: flex;
+      margin-top: 40px;
+      align-items: center;
+      justify-content: center;
+      font-family: Verdana, sans-serif;
+    }
+
+    /* footer {
+      border: solid;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+    } */
+  </style>
+  <body>
+    <script src="./app.js"></script>
+    <!-- la cabecera de nuestra web -->
+    <header>
+      <!-- etique que permite crear la navegacion -->
+      <nav style="font-family: Helvetica, sans-serif">
+        <div>
+          <ul>
+            <li><a class="list-item" href="#inicio"> Inicio</a></li>
+            <li><a class="list-item" href="#nosotros">Nosotros</a></li>
+            <li><a class="list-item" href="#proyectos">Proyectos</a></li>
+            <li><a class="list-item" href="#contacto">Contacto</a></li>
+          </ul>
+        </div>
+        <div>
+          <a id="boton-inicio" href="">Iniciar ahora!</a>
+        </div>
+      </nav>
+    </header>
+    <!-- main: Permite indicar cual es la sección principal de la web -->
+    <main>
+      <div>
+        <!-- la unidad de medida que usa img por defecto son pixelex (px) -->
+        <img
+          width="300"
+          src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/512px-HTML5_logo_and_wordmark.svg.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <h1>
+          Bienvenido
+          <script>
+            if (preguntaNombre === "") {
+              document.write("El usuario no escribio");
+            } else {
+              document.write(preguntaNombre);
+            }
+          </script>
+          , a HTML5
+        </h1>
+        <p>Este lenguaje nos permite crear la estructura de nuestra web</p>
+      </div>
+    </main>
+    <footer>
+      <p>Footer</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,14 @@
+body {
+  border: red solid;
+  display: flex;
+  /* centrar el contenido de form horizontal */
+  justify-content: center;
+  /* 100vh = toda la altura de nuestro monitor */
+  height: 100vh;
+  /* para alinear nuestro contenido de forma vertical */
+  align-items: center;
+}
+
+main {
+  border: solid;
+}
